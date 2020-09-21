@@ -1,0 +1,35 @@
+#secondPage
+{
+    padding-top: 5rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.arrowdown
+{
+    height: 50px;    
+    width: 55px;
+}
+
+#secondPage .right
+{
+    flex: 1;
+}
+
+
+#secondPage .right h1
+{
+    font-weight: 100;
+    font-size: 65px;
+    margin-bottom: 2rem;
+}
+
+
+#secondPage .left
+{
+    flex: 1;
+}

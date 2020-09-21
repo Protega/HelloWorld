@@ -1,0 +1,83 @@
+#thirdPage
+{
+    
+    padding-top: 5rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.left, .right
+{
+    flex: 1;
+}
+
+/* 
+.aman 
+{
+    background-color: red;
+    margin: 1rem;
+    height: 27vh;
+    border-radius: 30px;
+}
+
+.sameer
+{
+    background-color: orange;
+    margin: 1rem;
+    height: 27vh;
+    border-radius: 30px;
+}
+
+.saurabh
+{
+    background-color: yellow;
+    margin: 1rem;
+    height: 27vh;
+    border-radius: 30px;
+}
+
+
+.aman img
+{
+    height: 250px;
+    width: 250px;
+}
+
+
+.sameer img
+{
+    height: 250px;
+    width: 250px;
+}
+
+.saurabh img
+{
+    height: 280px;
+    width: 250px;
+} */
+
+
+
+#thirdPage .left img
+{
+    height: 110%;
+    width: 110%;
+}
+
+
+#thirdPage .right .arrowdown
+{
+    margin-top: -40%;
+}
+
+
+#thirdPage .right h1
+{
+    font-weight: 100;
+    font-size: 65px;
+    margin-bottom: 2rem;
+}

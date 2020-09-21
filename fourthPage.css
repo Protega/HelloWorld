@@ -1,0 +1,72 @@
+#fourthPage
+{
+    padding-top: 5rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+#fourthPage .left
+{
+    flex: 1;
+    padding: 2rem;
+}
+
+#fourthPage .right
+{
+    flex: 2;
+}
+
+#fourthPage .arrowdown
+{
+    margin-bottom: 3rem;
+}
+
+.subjects
+{
+    display: flex;
+} 
+
+
+ .coding, .dev
+{
+    flex: 1;
+    padding:2rem;
+    margin: 1.5rem;
+    background-color: #2D2D77;
+    border-radius: 10px;
+}
+
+h1
+{
+    font-weight: 100;
+    font-size: 65px;
+    margin-bottom: 2rem;
+}
+
+#fourthPage .dev img
+{
+    height: 40px;
+    width: 50px;
+    margin-bottom: 2rem;
+}
+
+#fourthPage .coding img
+{
+    height: 45px;
+    width: 55px;
+    margin-bottom: 2rem;
+}
+
+.coding h4
+{
+    margin-bottom: 1rem;
+}
+
+.dev h4
+{
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,64 @@
+#fifthPage
+{
+    padding-top: 5rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    align-items: center;
+    height: 100vh;
+}
+
+#fifthPage .top
+{
+    display: flex;
+    align-items: center;
+}
+
+#fifthPage h3
+{
+    padding-top: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    flex: 2;
+}
+
+.subjectTiles
+{
+    display: flex;
+}
+
+.subs
+{
+    flex: 1;
+    padding:2rem;
+    margin: 1.5rem;
+    background-color: #2D2D77;
+    border-radius: 10px;
+}
+
+.c
+{
+    height: 20%;
+    width: 20%;   
+    margin-bottom: 2rem;
+    
+}
+
+.cpp
+{
+    height: 20%;
+    width: 32%;
+    margin-bottom: 2rem;
+}
+
+.python
+{
+    height: 20%;
+    width: 20%;
+    margin-bottom: 2rem;
+}
+
+.subs h4
+{
+    margin-bottom: 1rem;
+}
