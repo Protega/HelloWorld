@@ -1,0 +1,5 @@
+Remaining work
+
+make responsive 
+refine the images
+apply js animations - scrolling based and all

@@ -21,6 +21,13 @@ a{
     text-decoration: none;
 }
 
+.nav-links a
+{
+    color: #e6797c;
+    text-decoration: none;
+    font-weight: 800;
+}
+
 a:hover
 {
     color: white;
@@ -29,25 +36,34 @@ a:hover
 
 /* HEADER */
 
+
 header
 {
+    /* background-color:red; */
     width: 100%;
     height: 13vh;
-    margin: auto;
+    /* margin: auto; */
     align-items: center;
     display: flex;
     position: fixed;
     top: 0%;
-    left: 0%;
+    /* left: 0%; */
+    padding-top: 1rem;
     background-color: #191D51;
+    color: #e6797c;
     
 }
 
 #logoImg
 {
-    height: 42px;
-    width: 57px;
+    height: 33px;
+    width: 45px;
     margin: 7%;
+}
+
+.logo-container .logo
+{
+    font-size: medium;
 }
 
 .logo-container
@@ -84,7 +100,8 @@ ul
 
 main
 {
-    margin-top: 20vh;
+    /* background-color: yellow; */
+    margin-top: 15vh;
     height: 100vh;
 }
 
@@ -133,10 +150,6 @@ main
     /* background-color: yellow; */
 }
 
-.tail
-{
-    /* background-color: blue; */
-}
 
 .head img
 {
@@ -176,12 +189,6 @@ hr
 
 .tail button:focus
 {
-    /* margin-top: 1rem;
-    background: transparent;
-    color: white;
-    border-radius: 30px;
-    padding: 1rem;
-    border : 4px solid #e6797c; */
     outline: none;
 }
 

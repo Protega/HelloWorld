@@ -1,0 +1,67 @@
+#eleventhPage
+{
+    padding-top: 5rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 0px;
+    height: 100vh;
+}
+
+#eleventhPage .contentTop
+{
+    display: flex;
+    align-items: center;
+}
+
+#eleventhPage .left
+{
+    flex: 1;
+    padding: 2rem;
+    /* background-color: red; */
+}
+
+#eleventhPage .contentTop .right
+{
+    flex: 2;
+    justify-content: right;
+}
+
+#eleventhPage .contentTop .right img
+{
+    height: 450px;
+    width: 600px;
+    margin-left: 8rem;
+}
+
+#eleventhPage .arrowdown
+{
+    margin-bottom: 3rem;
+}
+
+
+#eleventhPage .left h1
+{
+    font-weight: 100;
+    font-size: 45px;
+    margin-top: -1rem;
+    margin-bottom: -2rem;
+}
+
+
+#eleventhPage .left h3
+{
+    font-weight: 100;
+}
+
+#eleventhPage .foot
+{
+    margin: auto;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#eleventhPage .foot p
+{
+    color: #e6797c;    
+    font-size: 20px;
+}

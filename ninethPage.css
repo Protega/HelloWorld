@@ -1,0 +1,98 @@
+#ninethPage
+{
+    padding-top: 5rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 0px;
+    height: 100vh;
+}
+
+#ninethPage .contentTop
+{
+    display: flex;
+    align-items: center;
+}
+
+#ninethPage .left
+{
+    flex: 1;
+    padding: 2rem;
+    /* background-color: red; */
+}
+
+#ninethPage .right
+{
+    flex: 2;
+}
+
+#ninethPage .arrowdown
+{
+    margin-bottom: 3rem;
+}
+
+.subjects
+{
+    display: flex;
+} 
+
+
+ .coding, .dev
+{
+    flex: 1;
+    padding:2rem;
+    margin: 1.5rem;
+    background-color: #2D2D77;
+    border-radius: 10px;
+}
+
+h1
+{
+    font-weight: 100;
+    font-size: 65px;
+    margin-bottom: 2rem;
+}
+
+#ninethPage .left h1
+{
+    /* background-color: yellow; */
+    margin-top: -1rem;
+    margin-bottom: -2rem;
+}
+
+#ninethPage .left h3
+{
+    font-weight: 100;
+}
+
+#ninethPage .dev img
+{
+    height: 40px;
+    width: 50px;
+    margin-bottom: 2rem;
+}
+
+#ninethPage .coding img
+{
+    height: 45px;
+    width: 55px;
+    margin-bottom: 2rem;
+}
+
+.coding h4
+{
+    margin-bottom: 1rem;
+}
+
+.dev h4
+{
+    margin-bottom: 1rem;
+}
+
+#ninethPage .foot
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+    padding-top: 1rem;
+}

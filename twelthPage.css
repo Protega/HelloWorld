@@ -1,0 +1,40 @@
+#twelthPage
+{
+    padding-top: 5rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 0px;
+    height: 100vh;
+}
+
+#twelthPage .left
+{
+    flex: 1;
+    padding: 2rem;
+    /* background-color: red; */
+}
+
+#twelthPage .arrowdown
+{
+    margin-bottom: 3rem;
+}
+
+
+#twelthPage .foot
+{
+    margin: auto;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#twelthPage .foot h1
+{
+    font-weight: 400;
+    font-size: 100px;
+}
+
+#twelthPage .foot p
+{
+    color: #e6797c;    
+    font-size: 30px;
+}
