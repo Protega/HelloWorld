@@ -43,6 +43,19 @@
 {
     margin-bottom: 1rem;
 }
+
+.html{
+    height: 55%;
+    width: 40%;
+    margin: -5%;
+    margin-bottom: 2rem;
+}
+.css{
+    margin: -5%;
+    height: 60%;
+    width: 40%;
+    margin-bottom: 2rem;
+}
 @media(max-width:480px){
     #seventhPage
 {

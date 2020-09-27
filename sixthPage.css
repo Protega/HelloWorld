@@ -41,6 +41,23 @@
 {
     margin-bottom: 1rem;
 }
+
+.java{
+    height: 20%;
+    width:20%;
+    margin-bottom: 2rem;
+}
+.js{
+    height: 15%;
+    width:20%;
+    margin-bottom: 2rem;
+}
+.basic{
+    height: 20%;
+    width:30%;
+    margin-bottom: 2rem;
+}
+
 @media(max-width:480px){
     #sixthPage
 {
