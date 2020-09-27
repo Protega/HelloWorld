@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="tenthPage.css">
     <link rel="stylesheet" href="eleventhPage.css">
     <link rel="stylesheet" href="twelthPage.css">
+   
     <title>Document</title>
 </head>
 <body>
@@ -27,8 +28,20 @@
         <div class="logo-container">
             <img id="logoImg" src="./usedInSite/logo.png" alt="logo"/>
             <h4 class="logo"><a href="index.html">Form.inc</a></h4>
+
+            <a href="#" class="toggle">
+                <div class="lines">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+        
+                </div> 
+            </a>
+             
         </div>
-    
+
+        
+
         <nav>
             <ul class="nav-links">
                 <li class="nav-link"><a href="#fourthPage">Courses</a></li>
@@ -38,7 +51,7 @@
                 <li class="nav-link bookACall"><a href="#"> <b>Book a free demo !</b></a></li>
             </ul>
         </nav>
-
+        
     </header>
 
 
@@ -79,7 +92,7 @@
             <div class="left">
                 <a href="#thirdPage"><img class = "arrowdown" src="./usedInSite/arrowDown.png" alt=""></a>
                 <br>
-                <img src="./usedInSite/graph.png" alt="">
+                <img class="dataImg"src="./usedInSite/graph.png" alt="">
             </div>
 
             <div class="right">
@@ -115,7 +128,7 @@
         </section>
 
 
-        <section id="fourthPage">
+         <section id="fourthPage">
             <div class="left">
                 <a href="#fifthPage"><img class = "arrowdown" src="./usedInSite/arrowDown.png" alt=""></a>
                 <h1>What do we teach ?</h1>
@@ -134,7 +147,7 @@
                             Computer coding is the use of computer programming languages to give computers and machines instructions on what actions to perform. It is the way humans communicate with machines
                         </p>
                     </div>
-                    <div class="dev">
+                    <div class="dev" onclick="location.href ='#eighthPage'">
                         <img src="./usedInSite/dev.png" alt="">
                         <h4><b>Development</b></h4>
                         <p>
@@ -165,7 +178,7 @@
                             </p>
                 </div>
                 <div class="subs">
-                    <img class = "cpp" src="./usedInSite/c++.png" alt="">
+                    <img class = "cpp" src="./usedInSite/cpp.svg" alt="">
                             <h4> <b> C++</b></h4>
                             <p>
                                 C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language C++ gives programmers a high level of control over system resources and memory.
@@ -189,14 +202,14 @@
                 </div>
             <div class="subjectTiles">
                 <div class="subs">
-                    <img class = "c" src="./usedInSite/c.png" alt="">
+                    <img class = "c" src="./usedInSite/java.png" alt="">
                             <h4> <b> JAVA</b></h4>
                             <p>
                                 Java is a class-based, object-oriented programming language. There were five primary goals in the creation of the Java language: It must be simple, object-oriented, familiar, robust and secure.
                             </p>
                 </div>
                 <div class="subs">
-                    <img class = "cpp" src="./usedInSite/c++.png" alt="">
+                    <img class = "cpp" src="./usedInSite/javascript.png" alt="">
                             <h4> <b> JavaScript</b></h4>
                             <p>
                                 JavaScript is a programming language. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has  dynamic typing, prototype-based object-orientation, and first-class functions.
@@ -252,14 +265,14 @@
                             </p>
                 </div>
                 <div class="subs">
-                    <img class = "cpp" src="./usedInSite/c++.png" alt="">
+                    <img class = "cpp" src="./usedInSite/android.png" alt="">
                             <h4> <b> Android Development</b></h4>
                             <p>
                                 Android software development is the process by which applications are created for devices running the Android operating system. Google states that "Android apps can be written using Kotlin, Java, and other" using the Android software development kit
                             </p>
                 </div>
                 <div class="subs">
-                    <img class = "python" src="./usedInSite/python.png" alt="">
+                    <img class = "python" src="./usedInSite/machine.png" alt="">
                             <h4> <b> Machine Learning</b></h4>
                             <p>
                                 Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. One of the most trending fields  now a days.
@@ -309,7 +322,7 @@
 
         </section>
 
-        <section id="tenthPage">
+        <!-- <section id="tenthPage">
             <div class="top">
                 <a href="#eleventhPage"><img class = "arrowdown" src="./usedInSite/arrowDown.png" alt=""></a>
                 <p>Who can be the student ?</p>
@@ -343,7 +356,7 @@
             <div class="tenFoot">
                 <h2><b>cout << " Come and join Us. " ;</b></h2>
             </div>
-        </section>
+        </section> -->
 
 
         <section id="eleventhPage">
@@ -398,5 +411,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="navbar.js"></script>
 </body>
 </html>

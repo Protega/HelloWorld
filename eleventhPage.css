@@ -65,3 +65,17 @@
     color: #e6797c;    
     font-size: 20px;
 }
+@media(max-width:480px){
+    #eleventhPage{
+        margin: 3%;
+        margin-top: 220%;
+    }
+    .foot h4{
+        margin-left: 5%;
+        text-align: center;
+    }
+    .foot p{
+        margin-left: 5%;
+        text-align: center;
+    }
+}

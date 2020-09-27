@@ -96,3 +96,22 @@ h1
     /* background-color: yellow; */
     padding-top: 1rem;
 }
+
+/* .android{
+    height: ;
+} */
+
+@media(max-width:480px){
+    #ninethPage
+{
+    margin: 5%;
+   margin-top: 220%;
+}
+#ninethPage .contentTop
+{
+    flex-direction: column;
+}
+.foot{
+    margin: 5%;
+}
+}

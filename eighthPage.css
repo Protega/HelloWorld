@@ -62,3 +62,14 @@
 {
     margin-bottom: 1rem;
 }
+
+@media(max-width:480px){
+    #eighthPage
+{
+    margin: 2%;
+    margin-top: 70%;
+}
+.subs{
+    width: 300px;
+}
+}

@@ -43,3 +43,17 @@
 {
     margin-bottom: 1rem;
 }
+@media(max-width:480px){
+    #seventhPage
+{
+   margin: 5%;
+    margin-top: 180%;
+    
+}
+.subs{
+    width: 300px;
+}
+.subjectTiles{
+    margin: 1.3%;
+}
+}

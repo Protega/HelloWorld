@@ -27,9 +27,27 @@
     font-size: 65px;
     margin-bottom: 2rem;
 }
-
+c
 
 #secondPage .left
 {
     flex: 1;
+}
+
+
+
+@media only screen and (max-width:480px){
+    #secondPage{
+        flex-direction: column;
+    }
+     .dataImg{
+    width: 280px;
+    height:280px
+    
+    }
+    #secondPage .right h1{
+        font-size: xx-large;
+    }
+   
+    
 }

@@ -70,3 +70,25 @@ h1
 {
     margin-bottom: 1rem;
 }
+
+@media (max-width:480px){
+    #fourthPage{
+        display: block;
+        margin: 0%;
+    }
+    .subjects
+{
+    display: block;
+    flex-direction: column;
+
+}
+#fourthPage .left h1{
+    font-size: 50px;
+} 
+#fourthPage .left hr{
+   width: 300px;
+} 
+.coding,.dev{
+    width: 300px;
+}
+}

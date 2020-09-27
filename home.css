@@ -191,5 +191,79 @@ hr
 {
     outline: none;
 }
+.lines{
+    display: none;
+}
+.lines div{
+    width: 25px;
+    height:3px;
+    background-color: white;
+    margin: 5px;
+    margin-right: 10px;
+    margin-top: 0px;
 
+}
 /* FOOTER */
+
+/* media queries */
+@media only screen and (max-width:480px){
+ #homePage{
+    display: block;
+}
+
+.middle h1
+{
+    
+    font-size: 50px;
+}
+.middle p{
+    width: 300px;
+    text-align: center
+}
+hr{
+    width: 300px;
+}
+
+.introduction
+{
+    flex-direction: column;
+}
+
+.helloworld
+{
+    height: 300px;
+    width: 300px;
+
+}
+.tail button{
+    width: 300px;
+}
+
+.lines{
+    display: block;
+    margin-left: 150px;
+    cursor: pointer;
+}
+.nav-links{
+    display: none;
+
+}
+
+ul{
+    flex-direction: column;
+}
+.bookACall{
+    width: 250px;
+}
+header{
+    flex-direction: column;
+    width: 330px;
+    height: auto;
+    position: relative;
+    
+}
+.nav-links.active{
+    display: block;
+}
+
+}
