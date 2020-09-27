@@ -42,9 +42,11 @@
     #thirdPage .right .whoarewe h1{
         font-size: xx-large;
     }
+
+
     #thirdPage .left img
-{
-    height: 350px;
-    width: 300px;
-}
+    {
+        height: 350px;
+        width: 300px;
+    }
 }

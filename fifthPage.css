@@ -39,34 +39,84 @@
 .c
 {
     height: 20%;
-    width: 20%;   
-    margin-bottom: 2rem;
+    width: 25%;   
+    margin-bottom: 1rem;
     
 }
 
 .cpp
 {
         height: 20%;
-        width: 20%;
-    margin-bottom: 2rem;
+        width: 25%;
+    margin-bottom: 1rem;
 }
 
 .python
 {
     height: 20%;
     width: 70%;
-    margin-bottom: 2rem;
+    margin-bottom:1rem;
 }
 
 .subs h4
 {
     margin-bottom: 1rem;
 }
+
+
+
+.footC button
+{
+    background-color: transparent;
+    border : 4px solid #e6797c;
+    padding: 7px;
+    border-radius: 20px;
+    font-style: italic;
+    font-size: 10px;
+}
+
+.priceC
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.originalC
+{
+    color: #a9a8a8;
+    text-decoration: line-through;
+    opacity: .6;
+    margin-right: 5px;
+}
+
+.newC
+{
+    color: #e6797c;
+    margin-right: 5px;
+}
+
+.discountC
+{
+    color: greenyellow;
+    font-weight: 700;
+    font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
 @media(max-width:480px){
     #fifthPage{
         display: block;
         margin: 1.3%;
-        margin-top: 140%;
+        margin-top: 150%;
     }
     .top{
         display: block;

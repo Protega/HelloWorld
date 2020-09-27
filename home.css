@@ -210,6 +210,11 @@ hr
     display: block;
 }
 
+main
+{
+    margin-top: 5vh;
+}
+
 .middle h1
 {
     
@@ -230,7 +235,7 @@ hr{
 
 .helloworld
 {
-    height: 300px;
+    height: 250px;
     width: 300px;
 
 }

@@ -39,9 +39,12 @@ c
 @media only screen and (max-width:480px){
     #secondPage{
         flex-direction: column;
+        /* margin-top: 50px; */
     }
+
+    
      .dataImg{
-    width: 280px;
+    width: 320px;
     height:280px
     
     }
