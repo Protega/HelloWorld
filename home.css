@@ -202,6 +202,16 @@ hr
     margin-top: 0px;
 
 }
+
+.sticker
+{   position: absolute;
+    height: 35%;
+    width: 25%;
+    top: 30%;
+    left: 35%;
+    z-index: -1;
+}
+
 /* FOOTER */
 
 /* media queries */
@@ -256,9 +266,9 @@ hr{
 ul{
     flex-direction: column;
 }
-.bookACall{
+/* .bookACall{
     width: 250px;
-}
+} */
 header{
     flex-direction: column;
     width: 330px;
@@ -270,4 +280,45 @@ header{
     display: block;
 }
 
+
+.sticker
+{   position: absolute;
+    height: 10%;
+    width: 30%;
+    top: 35%;
+    left: 65%;
+    z-index: -1;
 }
+
+.nav-link
+{
+    font-size: small;
+}
+
+.bookACall
+{
+    background-color: white;
+    color: #191D51;
+    border-radius: 30px;
+    border: none;
+    /* width: 190px; */
+    padding: 0;
+    margin-top:1rem;
+}
+
+}
+
+/* @keyframes navLinkFade
+{
+    from
+    {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to
+    {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+} */

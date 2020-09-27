@@ -6,3 +6,7 @@
         navLinks.classList.toggle('active')
     })
 
+
+    // navLinks.forEach((link,index)=>{
+    //     link.style.animation = 'navLinkFade 3s ease downwards 5s'
+    // })
