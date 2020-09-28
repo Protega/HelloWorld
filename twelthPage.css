@@ -39,6 +39,9 @@
     font-size: 30px;
 }
 @media(max-width:480px){
+    #twelthPage{
+        margin-top: 20%;
+    }
     #twelthPage .foot h1
 {
     font-weight: 200;
