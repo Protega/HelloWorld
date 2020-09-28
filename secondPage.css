@@ -39,6 +39,7 @@ c
 @media only screen and (max-width:480px){
     #secondPage{
         flex-direction: column;
+        position: relative;
         /* margin-top: 50px; */
     }
 
