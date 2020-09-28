@@ -88,4 +88,7 @@
     .tobehidden{
         display: none;
     }
+    .arrowdown{
+        display: none;
+    }
 }
