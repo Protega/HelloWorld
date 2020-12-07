@@ -83,16 +83,17 @@
 .priceC
 {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
 }
 
 .originalC
 {
-    color: #a9a8a8;
-    text-decoration: line-through;
-    opacity: .6;
-    margin-right: 5px;
+    color: #e6797c;
+    /* text-decoration: line-through; */
+    /* opacity: .6; */
+    margin-left: 5px;
+   
 }
 
 .newC
